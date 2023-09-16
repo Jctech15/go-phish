@@ -1,12 +1,14 @@
-/* html {
-  background: linear-gradient(30deg, rgb(184, 210, 200), rgb(236, 209, 209));
-} */
+html {
+  background: linear-gradient(30deg, rgb(216, 236, 228), rgb(251, 237, 237));
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
 
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(30deg, rgb(201, 222, 214), rgb(240, 224, 224));
+  /* background: linear-gradient(30deg, rgb(201, 222, 214), rgb(240, 224, 224)); */
 }
 
 .backButton {
