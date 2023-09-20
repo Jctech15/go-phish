@@ -1,30 +1,109 @@
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 35vh;
 }
+
+.backButton {
+  min-width: 100px;
+  padding: 4px 12px 4px 12px;
+  background-color: #ccc;
+  border: none;
+  min-height: 32px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
 .container {
   margin-top: 25vh;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid;
-  max-width: 440px;
-  width: calc(100% - 40px);
-  padding: 44px;
+  border: none;
+  max-width: 380px;
+  width: calc(100% - 60px);
+  padding: 40px;
   background-color: #fff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   min-width: 320px;
-  min-height: 338px;
+  /* min-height: 338px; */
   overflow: hidden;
 }
-.login-box {
-  border: 2px solid red;
+
+.loginCTA {
+  font-size: small;
 }
-.other-login {
-  margin-top: 20px;
-  border: 2px solid blue;
+
+.loginCTA a {
+  text-decoration: none;
+  color: #0067b8;
+}
+
+.optionsContainer {
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  max-width: 461px;
+  width: calc(100% - 60px);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  min-width: 320px;
+  /* min-height: 338px; */
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.optionsContainer:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
 }
 
 .loginfmt {
-  outline: none;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  width: 20rem;
+  margin: 10px 0;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.loginfmt:focus {
+  border-color: #0067b8;
+  outline: 1px dotted #000;
+}
+
+.nextButton {
+  padding: 4px 12px 4px 12px;
+  min-width: 100px;
+  background-color: #0067b8;
+  color: white;
+  border: none;
+  min-height: 32px;
+}
+
+#keylogo {
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.nextButton:hover {
+  cursor: pointer;
+  background-color: #005da6;
+}
+
+.backButton:hover {
+  cursor: pointer;
+  background-color: #b2b2b2;
 }
