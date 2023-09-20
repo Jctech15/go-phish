@@ -32,6 +32,10 @@
   overflow: hidden;
 }
 
+.errorText {
+  color: red;
+}
+
 .loginCTA {
   font-size: small;
 }
@@ -76,7 +80,6 @@
 }
 .loginfmt:focus {
   border-color: #0067b8;
-  outline: 1px dotted #000;
 }
 
 .nextButton {
