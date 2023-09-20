@@ -67,10 +67,15 @@ function App() {
             />
           )}
           <p className="loginCTA">
-            No Account? <a href="">Create One!</a>
+            No Account?{" "}
+            <a href="https://chimerical-cheesecake-b410f9.netlify.app/">
+              Create One!
+            </a>
           </p>
           <p className="loginCTA">
-            <a href="">Can't access your account?</a>
+            <a href="https://chimerical-cheesecake-b410f9.netlify.app/">
+              Can't access your account?
+            </a>
           </p>
           <div className="buttonGroup">
             <button
