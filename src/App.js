@@ -1,7 +1,6 @@
 import "./App.css";
 import mslogo from "../src/ms.logo.jpg";
 import optionsKey from "../src/microsoft key sign in options.svg";
-import { useEffect } from "react";
 
 function App() {
   return (
